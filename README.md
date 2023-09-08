@@ -65,8 +65,11 @@ If you open that files, you can know about the importance of each variable to es
  ![image](https://github.com/AliBgisrs/Feature-selection/assets/109620013/8a950802-604d-48c4-9fcd-355d5d36181f)
 
 The interpretation of feature importance can vary depending on the algorithm used and the specific method for calculating feature importance.
+
 Random Forest (RFE): The feature importance values provided by the Random Forest algorithm represent the total reduction in impurity (e.g., Gini impurity) that each feature contributes when used in the decision trees.
+
 Lasso Regression: In Lasso regression, feature importance is often represented by the absolute values of the coefficients. These values indicate the magnitude of the effect of each feature on the target variable.
+
 PCA: In Principal Component Analysis (PCA), the feature loadings indicate how much each feature contributes to each principal component. The loadings are orthogonal, and their squares represent the proportion of the variance explained by each component.
 
 Contributing
